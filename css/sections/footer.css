@@ -1,0 +1,118 @@
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #303030;
+	color: #979797;
+	font-family: serif;
+	padding-top: 40px;
+}
+footer .container{
+	width: 82%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.blog,
+.links,
+.tweets,
+.contact{
+	width: 25%;
+}
+
+footer .container h3{
+	font-size: 16px;
+	color: white;
+	font-weight: 100;
+	font-family: serif;
+}
+.linktable{
+	width: 100%;
+}
+.linktable tr{
+	border-bottom: 1px solid #97979791;
+	height: 33px;
+}
+.linktable a{
+	text-decoration: none;
+	color: #76c38f;
+	font-size: 14px;
+	padding: 4px;
+	font-family: serif;
+	letter-spacing: 0.6px;
+}
+.linktable a:hover{
+	color:  #979797;
+	text-decoration: none;
+}
+.linktable a:before{
+		content: "\00BB \0020";
+}
+.tweets p + a {
+	font-size: 14px;
+	font-family: serif;
+}
+.tweets a{
+	color: #76c38f;
+	text-decoration: none;
+}
+.tweets a:hover{
+	color:  #979797;
+	text-decoration: none;
+}
+.blog{
+	font-family: serif;
+	font-size: 14px;
+	color: #979797;
+	width: 225px;
+}
+#blogtitle{
+	color:  #76c38f;
+	font-family: serif;
+}
+#blogauthor,
+#blogdate	{
+	font-size: 13px;
+	margin: 3px 0;
+}
+.blog #more{
+color: #76c38f;
+}
+.blog a::after{
+	content:  "\00BB \0020";
+	margin: 0 3px;
+}
+.contact{
+	width: 225px;
+}
+input[type="text"],
+#message{
+	display: block;
+	width: 100%;
+	background-color: #222;
+	color: #979797;
+	font-size: 14px;
+	font-family: serif;
+	height: 35px;
+	margin: 10px 0;
+	border-radius: 8px;
+	padding: 10px;
+	outline: none;
+	border: none;
+}
+#message{
+	min-height: 80px;
+	overflow: auto;
+}
+#submit{
+	width: 75px;
+	height: 35px;
+	background-color: #76c38f;
+	color: #222;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: serif;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+}
+

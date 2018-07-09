@@ -1,0 +1,9 @@
+@import 'global/base.css';
+@import 'global/hover.css';
+@import 'global/queries.css';
+
+@import 'sections/navbar.css';
+@import 'sections/carousel.css';
+@import 'sections/services.css';
+@import 'sections/works.css';
+@import 'sections/footer.css';

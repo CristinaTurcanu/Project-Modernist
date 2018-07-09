@@ -1,0 +1,134 @@
+@media screen and (max-width: 1164px){
+	nav .container,
+	main .carousel .container,
+	main .service .container,
+	main .works .container{
+		width: 90%;
+	}
+	main .carousel-inner .item img{
+		width: 300px;
+		height: 300px;
+	}
+	main .carousel .carousel-inner .item .caption {
+		width: 270px;
+		top: 70px;
+	}
+	main .carousel .caption h3{
+		font-size: 40px;
+	}
+	main .works{
+		height: auto;
+	}
+	main .works h2{
+		left: 33%;
+	}
+}
+@media screen and (max-width: 880px){
+	nav .container,
+	main .carousel .container,
+	main .service .container,
+	main .works .container,
+	footer .container {
+		width: 100%;
+		margin: 0;
+	}
+	nav .container .brand{
+		display: none;
+	}
+	nav .container .link{
+		margin: 0;
+		font-size: 14px;
+		padding: 10px 6px;
+	}
+	main .carousel .container {
+		height: 350px;
+	}
+	main .carousel-inner {
+		height: 330px;
+	}
+	main .carousel-inner .item img{
+		width: 250px;
+		height: 250px;
+		right: 70px;
+	}
+	main .carousel .carousel-inner .item .caption {
+		width: 250px;
+		top: 40px;
+		left: 70px;
+	}
+	main .carousel .caption h3{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 835px){
+	
+footer{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+footer .container {
+	display: flex;
+	flex-direction: column;
+	}
+	footer .container .blog,
+	footer .container .links,
+	footer .container .tweets,
+	footer .container .contact{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 735px){	
+main .carousel-inner .item img{
+	width: 200px;
+	height: 200px;
+	top: 50px;
+	border: 10px solid  #999;
+}
+main .carousel-inner .item .caption {
+	width: 90px;
+	top: 50px;
+	left: 50px;
+	}
+main .carousel .caption h3{
+	font-size: 20px;
+	}
+main .service .container {
+	flex-direction: column;
+}
+main .service .container .card{
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+main .service .container .card .card-title{
+	padding-top: 0;
+}
+main .service .container .card:last-child{
+	display: none;
+}
+main .service .container .card .card-img{
+	display: none;
+}
+main .works h2{
+	left: 30%;
+	}
+}
+@media screen and (max-width: 625px){
+	main .carousel-inner .item img{
+		left: 25%;
+		top: 30px;
+		width: 50%;
+		height: auto;
+		border: 5px solid #999;
+	}
+	main .carousel-inner .item .caption {
+		opacity: 0;
+		}
+	main .works h2{
+		left: 18%;
+	}
+}

@@ -1,0 +1,7 @@
+.service .container .card:hover{
+	background-color: rgb(119, 195, 143);
+	color: #fff;
+}
+.thumbnail img:hover{
+	z-index: 1000;
+}
